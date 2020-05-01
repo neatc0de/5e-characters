@@ -1,9 +1,3 @@
-<style type="text/css" rel="stylesheet">
-  table {
-  font-size: smaller;
-  }
-</style>
-
 # Dwaric
 Class  | Level | Race       | Background | Alignment    | XP   | Next
 -------|-------|------------|------------|--------------|------|------

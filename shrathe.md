@@ -117,7 +117,7 @@ pouch                             |   1  |   1    | capacity: 1/5 cubic ft; 6 lb
   healing potion                  |   6  |   3    |
   augury sticks                   |   1  |   1    | polished sandalwood (spell component)
 ----------------------------------|------|--------|-----------
--                                 |      |  90.5  | 180 carrying capacity (PHB 176, 12*15 [Str*15])
+_                                 |      |  90.5  | 180 carrying capacity (PHB 176, 12*15 [Str*15])
 * notes
   - Item, *
     - attached to backpack

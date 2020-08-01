@@ -299,7 +299,7 @@ x+y | (Level n)                  |          |        |      |                | -
 ## Personality Traits
 * I place no stock in wealth or well-mannered folk. Money and manners won't save you from a hungry owl bear.
 ## Ideals
-* My motherly instinct drives [me](me) to protect young children.
+* My motherly instinct drives me to protect young children.
 * It is each persons responsibility to contribute to the tribe's survival.
 ## Bonds
 * I suffer awful visions of a coming disaster upon my tribe and will do anything to prevent it. (TBD)

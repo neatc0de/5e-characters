@@ -133,28 +133,27 @@ _                                 |     |  83.68 | 180 carrying capacity (PHB 17
   - Natural Armor: Base AC calculation 13 + Dex
   - Languages: - Common, Draconic
 
-* Cleric
-  - Level 1
-    - Light and medium armor, and shields
-    - Simple weapons
-    - Skills
-      - Insight
-      - Medicine
-    - Spellcasting
-    - Light domain
-      - spells (burning hands, faerie fire)
-      - bonus cantrip: light
-      - Warding flare:
-        - when attack by seen creature within 30'
-        - use reaction
-        - flare imposes disadvantage on attack
-        - fails vs creatures that cannot be blinded
-        - 3/long rest [wis mod]
-  - Level 2
-    - Channel Divinity (1/rest)
-    - Channel Divinity: Radiance of the Dawn
-     - Dispels magical darkness within 30'
-     - Hostile creatures within 30' take 2d10 +2 [Cleric level] radiant damage; DC 14 Con save for half
+* Cleric 1
+  - Light and medium armor, and shields
+  - Simple weapons
+  - Skills
+    - Insight
+    - Medicine
+  - Spellcasting
+  - Light domain
+    - spells (burning hands, faerie fire)
+    - bonus cantrip: light
+    - Warding flare:
+      - when attack by seen creature within 30'
+      - use reaction
+      - flare imposes disadvantage on attack
+      - fails vs creatures that cannot be blinded
+      - 3/long rest [wis mod]
+* Cleric 2
+  - Channel Divinity (1/rest)
+  - Channel Divinity: Radiance of the Dawn
+    - Dispels magical darkness within 30'
+    - Hostile creatures within 30' take 2d10 +2 [Cleric level] radiant damage; DC 14 Con save for half
 
 * Background: Outlander
   - Athletics and Survival proficiencies
@@ -173,7 +172,7 @@ _                                 |     |  83.68 | 180 carrying capacity (PHB 17
 * Spell Attack bonus: +6 (4+2) [SPAM(Wis) + proficiency bonus]
 Level | Cntrps | 1st | 2nd | 3rd
 ------|--------|-----|-----|----
- 1st  | 3      | 2   |     |
+ 1st  | 3      | 3   |     |
 
 Prp | Name                       | Time     | Range  | Cmp  | Duration       | Source  | Comment
 ----|----------------------------|----------|--------|------|----------------|---------|--------
@@ -206,54 +205,6 @@ Prp | Name                       | Time     | Range  | Cmp  | Duration       | S
 
 Prp | Name                       | Time     | Range  | Cmp  | Duration       | Source  | Comment
 ----|----------------------------|----------|--------|------|----------------|---------|--------
-0+0 | (Level 2)                  |          |        |      |                | ------  |
- _  | Aid                        | action   | 30 ft  | VSM  | 8 hrs          | PHB 211 | <=3 creatures, increase current and max hp by 5*(slot-1)
- _  | Augury                     | 1 min/r  | Self   | VSM  | Instantaneous  | PHB 215 | receive omen for specific course of action, resulting weal, woe, both or none
- _  | Blindness/Deafness         | action   | 30 ft  | V    | 1 min          | PHB 219 | <=1*(slot-1) creatures, Con save or blind or deaf
- _  | Calm Emotions              | action   | 60 ft  | VS   | cnc, to 1 min  | PHB 221 | humanoids in 20' sphere, optional Cha save or calm* effect
- _  | Continual Flame            | action   | Touch  | VSM  | til dispelled  | PHB 227 | Create a no heat flame. Consumes ruby dust (50gp)
- _  | Enhance Ability            | action   | Touch  | VSM  | cnc, to 1 hr   | PHB 237 | <=(slot-1) creatures, choose enhance* effect, ability advantage + possible more
- _  | Find Traps                 | action   | 120 ft | VS   | Instantaneous  | PHB 241 | presence of traps, including alarm, glyph of warding, and mechanical
- D  | Flaming Sphere             | action   | 60 ft  | VSM  | cnc, to 1 min  | PHB 242 | creates 5' sphere; adjacent take (slot)d6 fire damage, Dex save for half; move sphere w/ bn act
- _  | Gentle Repose              | action/r | Touch  | VSM  | 10 days        | PHB 245 | prevent corpse decay, extend raise dead time limit
- _  | Hold Person                | action   | 60 ft  | VSM  | cnc, to 1 min  | PHB 251 | <=(slot-1) humanoids, Wis save (per turn) or paralyzed
- _  | Lesser Restoration         | action   | Touch  | VS   | Instantaneous  | PHB 255 | end one disease or blinded, deafened, paralyzed or poisoned condition
- _  | Locate Object              | action   | Self   | VSM  | cnc, to 10 min | PHB 256 | sense direction of object within 1000' either a specifically known item or nearest of type
- _  | Prayer of Healing          | 10 min   | 30 ft  | V    | Instantaneous  | PHB 267 | <=6 seen creatures, heals (slot-1)d8+5 [SPAM(Wis)]
- _  | Protection from Poison     | action   | Touch  | VS   | 1 hr           | PHB 270 | 1 creature, neutralize specified, known poison or a random one
- D  | Scorching Ray              | action   | 120 ft | VS   | Instantaneous  | PHB 273 | 3 ranged spell attacks; choose target(s) as desired; (slot)d6 fire damage each
- _  | Silence                    | action/r | 120 ft | VS   | cnc, to 10 min | PHB 275 | 20' sphere, no sound, immune to thunder damage, no verbal component spells
- _  | Spiritual Weapon           | bn act   | 60 ft  | VS   | 1 min          | PHB 278 | spell attack; (slot-1)d8+5 [SPAM(Wis)] force
- _  | Warding Bond               | action   | Touch  | VSM  | 1 hr           | PHB 287 | "split" damage with warded creature while within 60'
- _  | Zone of Truth              | action   | 60 ft  | VS   | 10 min         | PHB 289 | 15' sphere, Cha save or no deliberate lies
-
-Prp | Name                       | Time     | Range  | Cmp  | Duration       | Source  | Comment
-----|----------------------------|----------|--------|------|----------------|---------|--------
-0+0 | (Level 3)                  |          |        |      |                | ------  |
- _  | Animate Dead               | 1 min    | 10 ft  | VSM  | Instantaneous  | PHB 212 | create (slot-2) skeletons or zombies; recast in 24 hours to retain control of up to 4 creatures
- _  | Beacon of Hope             | action   | 30 ft  | VS   | cnc, to 1 min  | PHB 218 | any number of creatures within sight; Wis save advantage; healing spells heal maximum hp
- _  | Bestow Curse               | action   | Touch  | VS   | cnc, to 1 min  | PHB 218 | Wis save or cursed with chosen curse* options; remove curse to remove;
- _  | Clairvoyance               | 10 min   | 10 mi  | VSM  | cnc, to 10 min | PHB 222 | create a sensor that can see or hear area familiar to the caster, or obvious nearby location
- _  | Create Food and Water      | action   | 30 ft  | VS   | Instantaneous  | PHB 229 | create 45 pounds of food and 30 gallons of water, feeding 15 humanoids or 5 steeds for 24 hours
- D  | Daylight                   | action   | 60 ft  | VS   | 1 hr           | PHB 230 | creates 60'+60' sphere of bright+dim light. Can cast on carried object. Overrides 3rd level or less darkness
- _  | Dispel Magic               | action   | 120 ft | VS   | Instantaneous  | PHB 234 | end any spell effect on creature, object or in area of (slot) level or less; DC 10+level check to end higher
- _  | Feign Death                | action   | Touch  | VSM  | 1 hr           | PHB 240 | willing creature appears dead until dismissed by touch action; resists all non-psychic damage, poison slowed
- D  | Fireball                   | action   | 150 ft | VSM  | Instantaneous  | PHB 241 | 20' sphere; (slot+5)d6 fire damage, Dex save for half
- _  | Glyph of Warding           | 1 hr     | Touch  | VSM  | Disp or trgrd  | PHB 245 | trigger explosive runes or spell glyphs under predefined conditions
- _  | Magic Circle               | 1 min    | 10 ft  | VSMg | 1 hr           | PHB 256 | create cylinder 20' radius x 20' high from the floor; affects 1+ of celestial, elemental, fey, fiend, undead
- _  | Mass Healing Word          | bn act   | 60 ft  | V    | Instantaneous  | PHB 258 | heals up to 6 creature (slot-2)d4+5 [SPAM(Wis)]
- _  | Meld into Stone            | action/r | Touch  | VS   | 8 hrs          | PHB 259 | step into stone large enough to fit caster; can cast spells while in stone; damage to stone can damage caster
- _  | Protection From Energy     | action   | Touch  | VS   | cnc, to 1 hr   | PHB 270 | creature has resistance to selected type of damage: acid, cold, fire, lightning or thunder
- _  | Remove Curse               | action   | Touch  | VS   | Instantaneous  | PHB 271 | removes all curses affecting one creature or object or breaks attunement
- _  | Revivify                   | action   | Touch  | VSMg | Instantaneous  | PHB 272 | dead creature for 1 min or less returns to life with 1 HP; consume 300 gp worth of diamonds
- _  | Sending                    | action   | Unlim  | VSM  | 1 round        | PHB 274 | send up to 25 word message to know creature; 5% chance of failure to other planes
- _  | Speak with Dead            | action   | 10 ft  | VSM  | 10 min         | PHB 277 | ask corpse with mouth up to 5 questions in a language it knew in life; fails if corpse targeted in previous 10 days
- X  | Spirit Guardians           | action   | Self   | VSM  | cnc, to 10 min | PHB 278 | 15' distance; designate unaffected creature; affected 1/2 speed and (slot)d8 radiant damage, Wis save for half
- _  | Tongues                    | action   | Touch  | VM   | 1 hr           | PHB 283 | understand any spoken language and speak to any creature in it's own language
- _  | Water Walk                 | action   | 30     | VSM  | 1 hr           | PHB 287 | up to 10 seen creature can walk on liquid as if solid ground
-
-Prp | Name                       | Time     | Range  | Cmp  | Duration       | Source  | Comment
-----|----------------------------|----------|--------|------|----------------|---------|--------
 x+y | (Level n)                  |          |        |      |                | ------  |
  -  | name                       | time     | range  | cmp  | duration       | PHB     | template for later
 * key / notes
@@ -262,22 +213,6 @@ x+y | (Level n)                  |          |        |      |                | -
   - Prp, X prepared
   - Duration, cnc* = house rule: no concentration
   - Time /r = can cast as ritual (+10 minutes of concentration, no spell slot consumed)
-  - Comment, slot = the level of spell slot used for casting
-  - Comment, calm = Suppress charm or fright, or change from hostile to indifferent. Effect ends if attack/spell damages target or target's friend
-  - Comment, enhance = one of the following
-    - Bear's Endurance (Con and 2d6 temp HP)
-    - Bull's Strength (Str and x2 carry capacity)
-    - Cat's Grace (Dex and no fall dmg <=20 ft)
-    - Eagle's Splendor (Cha)
-    - Fox's Cunning (Int)
-    - Owl's Wisdom (Wis)
-  - Comment, curse
-    - 4 predefined options or equivalent at DM's discretion
-      - disadvantage on ability checks with chosen ability score
-      - disadvantage on attack roll vs caster
-      - Wis save every round or do nothing
-      - caster's attacks vs target do addition d8 necrotic damage
-    - level/durations: 4, 5, 7, 9/10m, 8h, 24h, until dispelled
 
 ## Notes
 * Alagaesia main character

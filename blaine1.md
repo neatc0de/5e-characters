@@ -180,16 +180,20 @@ pouch                             |   1  |   1    | capacity: 1/5 cubic ft; 6 lb
 
 Slt | Name                       | Time     | Range  | Cmp | Duration       | Source  | Comment
 ----|----------------------------|----------|--------|-----|----------------|---------|--------
- *  | (Cantrips)                 |          |        |     |                | ------  |
+ _  | (Cantrips)                 |          |        |     |                | ------  |
  _  | Light                      | action   | Touch  | VM  | 1 hour         | PHB 255 | can be colored, hostile avoids with Dex save
  _  | Mage Hand                  | action   | 30 ft  | VS  | 1 min          | PHB 256 | can move up to 30' using action, capacity 10 lbs
 
+Slt | Name                       | Time     | Range  | Cmp | Duration       | Source  | Comment
+----|----------------------------|----------|--------|-----|----------------|---------|--------
  4  | (Level 1)                  |          |        |     |                | ------  |
  _  | Cure Wounds                | action   | Touch  | VS  | Instantaneous  | PHB 230 | Heals (slot)d8+2 [spam(Cha)]
  _  | Detect Magic               | action/r | Self   | VS  | cnc, to 10 min | PHB 231 | sense magic within 30', can see aura using action
  _  | Faerie Fire                | action   | 60 ft  | V   | cnc, to 1 min  | PHB 239 | 20' cube, creature Dex save or attacks vs it have advantage
  _  | Healing Word               | bn act   | 60 ft  | V   | Instantaneous  | PHB 250 | heals (slot)d4+2 [spam(Cha)]
 
+Slt | Name                       | Time     | Range  | Cmp | Duration       | Source  | Comment
+----|----------------------------|----------|--------|-----|----------------|---------|--------
 x+y | (Level n)                  |          |        |     |                | ------  |
  _  | name                       | time     | range  | cmp | duration       | PHB     | template for later
 

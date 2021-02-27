@@ -29,16 +29,16 @@ _ | 3   | 3   | Acrobatics (Dex)      |
 _ | 4   | 4   | Animal Handling (Wis) |
 _ | _   | _   | Arcana (Int)          |
 2 | 1   | 3   | Athletics (Str)       | Outlander
-_ | -1  | _   | Deception (Cha)       |
+_ | -1  | -1  | Deception (Cha)       |
 _ | _   | _   | History (Int)         |
 2 | 4   | 6   | Insight (Wis)         | Cleric
-_ | -1  | _   | Intimidation (Cha)    |
+_ | -1  | -1  | Intimidation (Cha)    |
 _ | _   | _   | Investigation (Int)   |
 2 | 4   | 6   | Medicine (Wis)        | Cleric
 _ | 0   | _   | Nature (Int)          |
 2 | 4   | 6   | Perception (Wis)      | Lizardfolk
-_ | -1  | _   | Performance (Cha)     |
-_ | -1  | _   | Persuasion (Cha)      |
+_ | -1  | -1  | Performance (Cha)     |
+_ | -1  | -1  | Persuasion (Cha)      |
 _ | _   | _   | Religion (Int)        |
 _ | 3   | 3   | Sleight of Hand (Dex) |
 2 | 3   | 5   | Stealth (Dex)         | Lizardfolk

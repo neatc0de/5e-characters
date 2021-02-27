@@ -166,13 +166,10 @@ _                                 |     |  83.68 | 180 carrying capacity (PHB 17
 
 ## Cleric Spells
 * House Rule: Spell points
-    - max: 23 (19+4) [SPA(Wis) + (level * SPAM(Wis))]
-    - current: 23
+    - max: 27 (19+8) [SPA(Wis) + (level * SPAM(Wis))]
+    - current: 27
 * Spell Save DC: 14 (8+4+2) [8 + SPAM(Wis) + proficiency bonus]
 * Spell Attack bonus: +6 (4+2) [SPAM(Wis) + proficiency bonus]
-Level | Cntrps | 1st | 2nd | 3rd
-------|--------|-----|-----|----
- 1st  | 3      | 3   |     |
 
 Prp | Name                       | Time     | Range  | Cmp  | Duration       | Source  | Comment
 ----|----------------------------|----------|--------|------|----------------|---------|--------

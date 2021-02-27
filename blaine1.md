@@ -125,7 +125,7 @@ crowbar                           |   1  |   5    |
 pouch                             |   1  |   1    | capacity: 1/5 cubic ft; 6 lbs
   gp                              |  11  |   0.22 | x .02
 ----------------------------------|------|--------|-----------
--                                 |      |  94.24 | 150 carrying capacity (PHB 176, 10*15 [Str*15])
+_                                 |      |  94.24 | 150 carrying capacity (PHB 176, 10*15 [Str*15])
 * notes
   - Item, *
     - attached to backpack / saddlebag exterior

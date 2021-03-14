@@ -13,10 +13,10 @@ Female | 16 | 5'8"   | 127 lbs | Green | Gray
 
 Ability | STR    | DEX     | CON     | INT     | WIS     | CHA
 --------|--------|---------|---------|---------|---------|-------
-mod     | +1     | +3      | +3      | +0      | +4      | -1
-prof    | +3     | +5      | +5      | +2      | +6      | +1
-save    | +1     | +3      | +3      | +0      | +6/p    | +1/p
-score   | 12     | 16      | 16      | 10      | 19      | 8
+mod     | +2     | +3      | +4      | +2      | +4      | +1
+prof +2 | +4     | +5      | +6      | +4      | +6      | +3
+save    | +2     | +3      | +4      | +2      | +6/p    | +3/p
+score   | 15     | 17      | 18      | 14      | 19      | 13
 
 * mod = (score - 10) / 2
 * prof   = mod + proficiency bonus (+2)
@@ -25,24 +25,24 @@ score   | 12     | 16      | 16      | 10      | 19      | 8
 
 P | Mod | Tot | Skill                 | Source
 --|-----|-----|-----------------------|----------------
-_ | 3   | 3   | Acrobatics (Dex)      |
-_ | 4   | 4   | Animal Handling (Wis) |
-_ | _   | _   | Arcana (Int)          |
-2 | 1   | 3   | Athletics (Str)       | Outlander
-_ | -1  | -1  | Deception (Cha)       |
-_ | _   | _   | History (Int)         |
-2 | 4   | 6   | Insight (Wis)         | Cleric
-_ | -1  | -1  | Intimidation (Cha)    |
-_ | _   | _   | Investigation (Int)   |
-2 | 4   | 6   | Medicine (Wis)        | Cleric
-_ | 0   | _   | Nature (Int)          |
-2 | 4   | 6   | Perception (Wis)      | Lizardfolk
-_ | -1  | -1  | Performance (Cha)     |
-_ | -1  | -1  | Persuasion (Cha)      |
-_ | _   | _   | Religion (Int)        |
-_ | 3   | 3   | Sleight of Hand (Dex) |
-2 | 3   | 5   | Stealth (Dex)         | Lizardfolk
-2 | 4   | 6   | Survival (Wis)        | Outlander
+_ | +3  | +3  | Acrobatics (Dex)      |
+_ | +4  | +4  | Animal Handling (Wis) |
+_ | +2  | +2  | Arcana (Int)          |
+2 | +2  | +4  | Athletics (Str)       | Outlander
+_ | +1  | +1  | Deception (Cha)       |
+_ | +2  | +2  | History (Int)         |
+2 | +4  | +6  | Insight (Wis)         | Cleric
+_ | +1  | +1  | Intimidation (Cha)    |
+_ | +2  | +2  | Investigation (Int)   |
+2 | +4  | +6  | Medicine (Wis)        | Cleric
+_ | +2  | +2  | Nature (Int)          |
+2 | +4  | +6  | Perception (Wis)      | Lizardfolk
+_ | +1  | +1  | Performance (Cha)     |
+_ | +1  | +1  | Persuasion (Cha)      |
+_ | +2  | +2  | Religion (Int)        |
+_ | +3  | +3  | Sleight of Hand (Dex) |
+2 | +3  | +5  | Stealth (Dex)         | Lizardfolk
+2 | +4  | +6  | Survival (Wis)        | Outlander
 * notes
   - P = Proficient ( +2, 3, 4, 5, 6 @level 1, 5, 9, 13, 17)
 
@@ -75,7 +75,7 @@ Failures    | - | - | - | dead
 
 * Weapons Attacks:
   - Bite (Lizard folk, unarmed strike)
-    - hit: d20+3 (1 + 2) [str + proficiency]
+    - hit: d20+3 (+1+2) [str + proficiency]
     - dmg: d6+1 (1) [str] piercing
   - Mace
     - hit: d20+3 (+1+2) [str + proficiency]
@@ -174,26 +174,26 @@ _                                 |     |  83.68 | 180 carrying capacity (PHB 17
 Prp | Name                       | Time     | Range  | Cmp  | Duration       | Source  | Comment
 ----|----------------------------|----------|--------|------|----------------|---------|--------
 3+1 |(Cantrips)                  |          |        |      |                | ------  |
- X  | Guidance                   | action   | Touch  | VS   | cnc, 1 min     | PHB 248 | +d4 for 1 ability check
+ X  | Guidance                   | action   | Touch  | VS   | cnc, to 1 min  | PHB 248 | +d4 for 1 ability check
  D  | Light                      | action   | Touch  | VM   | 1 hour         | PHB 255 | 20' bright + 20' dim; can be colored, hostile avoids with Dex save
  X  | Mending                    | 1 min    | Touch  | VSM  | instantaneous  | PHB 259 | repair object <= 1 ft in any dimension
- X  | Sacred Flame               | action   | 60 ft  | VS   | instantaneous  | PHB 272 | Dex save or 2d8 (3d8@11, 4d8@17) damage, no cover
+ X  | Sacred Flame               | action   | 60 ft  | VS   | instantaneous  | PHB 272 | Dex save or d8 (2, 3, 4d8 @5, 11, 17) damage, no cover
 
 Prp | Name                       | Time     | Range  | Cmp  | Duration       | Source  | Comment
 ----|----------------------------|----------|--------|------|----------------|---------|--------
 3+2 | (Level 1)                  |          |        |      |                | ------  |
  _  | Bane                       | action   | 30 ft  | VSM  | cnc, to 1 min  | PHB 216 | <=2+(slot) creatures, Cha save or -d4 on attacks and saves
  X  | Bless                      | action   | 30 ft  | VSM  | cnc*, to 1 min | PHB 219 | <=2+(slot) creatures, +d4 on attacks and saves
- D  | Burning Hands              | action   | 15 ft  | VS   | Instantaneous  | PHB 220 | 15 ft cone; (slot+2)d6 fire damage, save for half
+ D  | Burning Hands              | action   | 15 ft  | VS   | Instantaneous  | PHB 220 | 15 ft cone; (slot+2)d6 fire damage, Dex save for half
  _  | Command                    | action   | 60 ft  | V    | 1 round        | PHB 223 | vs living, Wis save or follow command
  _  | Create or Destroy Water    | action   | 30 ft  | VSM  | Instantaneous  | PHB 229 | <=10*slot gallons, can destroy fog 30' cube
- _  | Cure Wounds                | action   | Touch  | VS   | Instantaneous  | PHB 230 | on living, heal (slot)d8+5 [SPAM(Wis)] hit points
+ _  | Cure Wounds                | action   | Touch  | VS   | Instantaneous  | PHB 230 | on living, heal (slot)d8+4 [SPAM(Wis)] hit points
  _  | Detect Evil and Good       | action   | Self   | VS   | cnc, to 10 min | PHB 231 | aberration, celestial, elemental, fey, fiend, undead, consecrated, desecrated; 30' and where
  _  | Detect Magic               | action/r | Self   | VS   | cnc, to 10 min | PHB 231 | magic presence; 30'; use action to see aura
  _  | Detect Poison and Disease  | action/r | Self   | VSM  | cnc, to 10 min | PHB 231 | detect poison or poisonous creatures and diseases; 30'
  D  | Faerie Fire                | action   | 60 ft  | V    | cnc, to 1 min  | PHB 239 | 20' cube; Dex save or attack against have advantage
  X  | Guiding Bolt               | action   | 120 ft | VS   | 1 round        | PHB 248 | spell attack; 3+(slot)d6 radiant
- X  | Healing Word               | bn act   | 60 ft  | V    | Instantaneous  | PHB 250 | heals (slot)d4+5 [SPAM(Wis)]
+ X  | Healing Word               | bn act   | 60 ft  | V    | Instantaneous  | PHB 250 | heals (slot)d4+4 [SPAM(Wis)]
  _  | Inflict Wounds             | action   | Touch  | VS   | Instantaneous  | PHB 253 | spell attack; 2+(slot)d10 necrotic
  _  | Protect from Evil and Good | action   | Touch  | VSM  | cnc, to 10 min | PHB 270 | aberration, celestial, elemental, fey, fiend, undead have attack disadvantage + charm stuff
  _  | Purify Food and Drink      | action/r | 10 ft  | VS   | Instantaneous  | PHB 270 | 5' sphere of food purified of poison and disease

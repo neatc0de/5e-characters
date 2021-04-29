@@ -156,10 +156,10 @@ _                                 |     |  92.6  | 180 carrying capacity (PHB 17
       - 4/long rest [wis mod]
 * Cleric 2
   - Channel Divinity (1/rest)
-  - Channel Divinity: Turn Undead
-  - Channel Divinity: Radiance of the Dawn
-    - Dispels magical darkness within 30'
-    - Hostile creatures within 30' take 2d10 +2 [Cleric level] radiant damage; DC 14 Con save for half
+    - Turn Undead
+    - Radiance of the Dawn
+      - Dispels magical darkness within 30'
+      - Hostile creatures within 30' take 2d10 +2 [Cleric level] radiant damage; DC 14 Con save for half
 
 * Background: Outlander
   - Athletics and Survival proficiencies
@@ -176,6 +176,15 @@ _                                 |     |  92.6  | 180 carrying capacity (PHB 17
     - current: 31
 * Spell Save DC: 14 (8+4+2) [8 + SPAM(Wis) + proficiency bonus]
 * Spell Attack bonus: +6 (4+2) [SPAM(Wis) + proficiency bonus]
+
+Spell List
+* key / notes
+  - SPAM = spellcasting ability modifier
+  - Prp, D domain spell, always prepared
+  - Prp, X prepared
+  - Duration, cnc* = house rule: no concentration
+  - Time /r = can cast as ritual (+10 minutes of concentration, no spell slot consumed)
+  - Comment, slot = the level of spell slot used for casting
 
 Prp | Name                       | Time     | Range  | Cmp  | Duration       | Source  | Comment
 ----|----------------------------|----------|--------|------|----------------|---------|--------
@@ -206,40 +215,30 @@ Prp | Name                       | Time     | Range  | Cmp  | Duration       | S
  _  | Sanctuary                  | bn act   | 30 ft  | VSM  | 1 min          | PHB 272 | Wis save or choose new target; attack/spell causing damage by warded ends spell
  _  | Shield of Faith            | bn act   | 60 ft  | VSM  | cnc, to 10 min | PHB 275 | +2 AC to visible target
 
-Prp | Name                       | Time     | Range  | Cmp | Duration       | Source  | Comment
-----|----------------------------|----------|--------|-----|----------------|---------|--------
-2+2 | (Level 2)                  |          |        |     |                | ------  |
- _  | Aid                        | action   | 30 ft  | VSM | 8 hrs          | PHB 211 | <=3 creatures, increase current and max hp by 5*(slot-1)
- _  | Augury                     | 1 min/r  | Self   | VSM | Instantaneous  | PHB 215 | receive omen for specific course of action, resulting weal, woe, both or none
- _  | Blindness/Deafness         | action   | 30 ft  | V   | 1 min          | PHB 219 | <=1*(slot-1) creatures, Con save or blind or deaf
- _  | Calm Emotions              | action   | 60 ft  | VS  | cnc, to 1 min  | PHB 221 | humanoids in 20' sphere, optional Cha save or calm* effect
- _  | Continual Flame            | action   | Touch  | VSM | til dispelled  | PHB 227 | Create heatless flame. Consumes ruby dust (50gp)
- X  | Enhance Ability            | action   | Touch  | VSM | cnc, to 1 hr   | PHB 237 | <=(slot-1) creatures, choose enhance* effect, ability advantage + possible more
- _  | Find Traps                 | action   | 120 ft | VS  | Instantaneous  | PHB 241 | presence of traps, including alarm, glyph of warding, and mechanical
- D  | Flaming Sphere             | action   | 60 ft  | VSM | cnc, to 1 min  | PHB 242 | 5' sphere; 2d6 fire dmg at end of creatures turn; Wis save for 1/2; Move 30' on subsequent bn act
- _  | Gentle Repose              | action/r | Touch  | VSM | 10 days        | PHB 245 | prevent corpse decay, extend raise dead time limit
- _  | Hold Person                | action   | 60 ft  | VSM | cnc, to 1 min  | PHB 251 | <=(slot-1) humanoids, Wis save (per turn) or paralyzed
- _  | Lesser Restoration         | action   | Touch  | VS  | Instantaneous  | PHB 255 | end one disease or blinded, deafened, paralyzed or poisoned condition
- _  | Locate Object              | action   | Self   | VSM | cnc, to 10 min | PHB 256 | sense direction of object within 1000' either a specifically known item or nearest of type
- _  | Prayer of Healing          | 10 min   | 30 ft  | V   | Instantaneous  | PHB 267 | <=6 seen creatures, heals (slot)d8+4 [spam(Wis)]
- _  | Protection from Poison     | action   | Touch  | VS  | 1 hr           | PHB 270 | 1 creature, neutralize specified, known poison or a random one
- D  | Scorching Ray              | action   | 120 ft | VS  | Instantaneous  | PHB 273 | Create (slot+1) rays; Ranged attack for each ray; 2d6 fire dmg
- _  | Silence                    | action/r | 120 ft | VS  | cnc, to 10 min | PHB 275 | 20' sphere, no sound, immune to thunder damage, no verbal component spells
- X  | Spiritual Weapon           | bn act   | 60 ft  | VS  | 1 min          | PHB 278 | spell attack; (slot-1)d8+4 [spam(Wis)] force
- _  | Warding Bond               | action   | Touch  | VSM | 1 hr           | PHB 287 | "split" damage with warded creature while within 60'
- _  | Zone of Truth              | action   | 60 ft  | VS  | 10 min         | PHB 289 | 15' sphere, Cha save or no deliberate lies
-
 Prp | Name                       | Time     | Range  | Cmp  | Duration       | Source  | Comment
 ----|----------------------------|----------|--------|------|----------------|---------|--------
-x+y | (Level n)                  |          |        |      |                | ------  |
- -  | name                       | time     | range  | cmp  | duration       | PHB     | template for later
+2+2 | (Level 2)                  |          |        |      |                | ------  |
+ _  | Aid                        | action   | 30 ft  | VSM  | 8 hrs          | PHB 211 | <=3 creatures, increase current and max hp by 5*(slot-1)
+ _  | Augury                     | 1 min/r  | Self   | VSM  | Instantaneous  | PHB 215 | receive omen for specific course of action, resulting weal, woe, both or none
+ _  | Blindness/Deafness         | action   | 30 ft  | V    | 1 min          | PHB 219 | <=1*(slot-1) creatures, Con save or blind or deaf
+ _  | Calm Emotions              | action   | 60 ft  | VS   | cnc, to 1 min  | PHB 221 | humanoids in 20' sphere, optional Cha save or calm* effect
+ _  | Continual Flame            | action   | Touch  | VSM  | til dispelled  | PHB 227 | Create heatless flame. Consumes ruby dust (50gp)
+ X  | Enhance Ability            | action   | Touch  | VSM  | cnc, to 1 hr   | PHB 237 | <=(slot-1) creatures, choose enhance* effect, ability advantage + possible more
+ _  | Find Traps                 | action   | 120 ft | VS   | Instantaneous  | PHB 241 | presence of traps, including alarm, glyph of warding, and mechanical
+ D  | Flaming Sphere             | action   | 60 ft  | VSM  | cnc, to 1 min  | PHB 242 | 5' sphere; 2d6 fire dmg at end of creatures turn; Wis save for 1/2; Move 30' on subsequent bn act
+ _  | Gentle Repose              | action/r | Touch  | VSM  | 10 days        | PHB 245 | prevent corpse decay, extend raise dead time limit
+ _  | Hold Person                | action   | 60 ft  | VSM  | cnc, to 1 min  | PHB 251 | <=(slot-1) humanoids, Wis save (per turn) or paralyzed
+ _  | Lesser Restoration         | action   | Touch  | VS   | Instantaneous  | PHB 255 | end one disease or blinded, deafened, paralyzed or poisoned condition
+ _  | Locate Object              | action   | Self   | VSM  | cnc, to 10 min | PHB 256 | sense direction of object within 1000' either a specifically known item or nearest of type
+ _  | Prayer of Healing          | 10 min   | 30 ft  | V    | Instantaneous  | PHB 267 | <=6 seen creatures, heals (slot)d8+4 [spam(Wis)]
+ _  | Protection from Poison     | action   | Touch  | VS   | 1 hr           | PHB 270 | 1 creature, neutralize specified, known poison or a random one
+ D  | Scorching Ray              | action   | 120 ft | VS   | Instantaneous  | PHB 273 | Create (slot+1) rays; Ranged attack for each ray; 2d6 fire dmg
+ _  | Silence                    | action/r | 120 ft | VS   | cnc, to 10 min | PHB 275 | 20' sphere, no sound, immune to thunder damage, no verbal component spells
+ X  | Spiritual Weapon           | bn act   | 60 ft  | VS   | 1 min          | PHB 278 | spell attack; (slot-1)d8+4 [spam(Wis)] force
+ _  | Warding Bond               | action   | Touch  | VSM  | 1 hr           | PHB 287 | "split" damage with warded creature while within 60'
+ _  | Zone of Truth              | action   | 60 ft  | VS   | 10 min         | PHB 289 | 15' sphere, Cha save or no deliberate lies
 * key / notes
-	- SPAM = spellcasting ability modifier
-  - Prp, D domain spell, always prepared
-  - Prp, X prepared
-  - Duration, cnc* = house rule: no concentration
-  - Time /r = can cast as ritual (+10 minutes of concentration, no spell slot consumed)
-  - Comment, calm = Suppress charm or fright, or change from hostile to indifferent. Effect ends if attack or spell attack or damage on target or target's friend
+  - Comment, calm = Suppress charm or fright, or change from hostile to indifferent. Effect ends if attack/spell damages target or target's friend
   - Comment, enhance = one of the following
     - Bear's Endurance (Con and 2d6 temp HP)
     - Bull's Strength (Str and x2 carry capacity)
@@ -247,7 +246,11 @@ x+y | (Level n)                  |          |        |      |                | -
     - Eagle's Splendor (Cha)
     - Fox's Cunning (Int)
     - Owl's Wisdom (Wis)
-  - Comment, slot = the level of spell slot used for casting
+
+Prp | Name                       | Time     | Range  | Cmp  | Duration       | Source  | Comment
+----|----------------------------|----------|--------|------|----------------|---------|--------
+x+y | (Level n)                  |          |        |      |                | ------  |
+ -  | name                       | time     | range  | cmp  | duration       | PHB     | template for later
 
 ## Notes
 * Alagaesia main character

@@ -75,11 +75,11 @@ Failures    | - | - | - | dead
 
 * Weapons Attacks:
   - Bite (Lizard folk, unarmed strike)
-    - hit: d20+3 (+1+2) [str + proficiency]
-    - dmg: d6+1 (1) [str] piercing
+    - hit: d20+4 (+2+2) [str + proficiency]
+    - dmg: d6+2 (2) [str] piercing
   - Mace
-    - hit: d20+3 (+1+2) [str + proficiency]
-    - dmg: d6+1 (+1) [str] bludgeoning
+    - hit: d20+3 (+2+2) [str + proficiency]
+    - dmg: d6+2 (+2) [str] bludgeoning
   - Light Crossbow (80/320)
     - hit: d20+6 (+3+2+1) [dex + proficiency + special]
     - dmg: d8+3 (+3) [dex] piercing
@@ -153,9 +153,10 @@ _                                 |     |  92.6  | 180 carrying capacity (PHB 17
       - use reaction
       - flare imposes disadvantage on attack
       - fails vs creatures that cannot be blinded
-      - 3/long rest [wis mod]
+      - 4/long rest [wis mod]
 * Cleric 2
   - Channel Divinity (1/rest)
+  - Channel Divinity: Turn Undead
   - Channel Divinity: Radiance of the Dawn
     - Dispels magical darkness within 30'
     - Hostile creatures within 30' take 2d10 +2 [Cleric level] radiant damage; DC 14 Con save for half
@@ -215,7 +216,7 @@ Prp | Name                       | Time     | Range  | Cmp | Duration       | So
  _  | Continual Flame            | action   | Touch  | VSM | til dispelled  | PHB 227 | Create heatless flame. Consumes ruby dust (50gp)
  X  | Enhance Ability            | action   | Touch  | VSM | cnc, to 1 hr   | PHB 237 | <=(slot-1) creatures, choose enhance* effect, ability advantage + possible more
  _  | Find Traps                 | action   | 120 ft | VS  | Instantaneous  | PHB 241 | presence of traps, including alarm, glyph of warding, and mechanical
- D  | Flaming Sphere             | action   | 60 ft  | VSM | cnc, to 1 min  | PHB 242 | 5' spehre; 2d6 fire dmg at end of creatures turn; Wis save for 1/2; Move 30' on subsequent bn act
+ D  | Flaming Sphere             | action   | 60 ft  | VSM | cnc, to 1 min  | PHB 242 | 5' sphere; 2d6 fire dmg at end of creatures turn; Wis save for 1/2; Move 30' on subsequent bn act
  _  | Gentle Repose              | action/r | Touch  | VSM | 10 days        | PHB 245 | prevent corpse decay, extend raise dead time limit
  _  | Hold Person                | action   | 60 ft  | VSM | cnc, to 1 min  | PHB 251 | <=(slot-1) humanoids, Wis save (per turn) or paralyzed
  _  | Lesser Restoration         | action   | Touch  | VS  | Instantaneous  | PHB 255 | end one disease or blinded, deafened, paralyzed or poisoned condition
